@@ -160,7 +160,7 @@ index 94dbb3b9e0d626dd0de9aa8df2f9168e60b87609..f6643aa9b49c8108f48ecabc73f646d2
  const cp = require('child_process');
 diff --git a/coder.js b/coder.js
 new file mode 100644
-index 0000000000000000000000000000000000000000..ac2e6eb2cdf41787194f7681a76ad4a55c5aeb5a
+index 0000000000000000000000000000000000000000..a029c8d718c9188b9cf4c8c45630a9a84f2556a6
 --- /dev/null
 +++ b/coder.js
 @@ -0,0 +1,64 @@
@@ -195,7 +195,7 @@ index 0000000000000000000000000000000000000000..ac2e6eb2cdf41787194f7681a76ad4a5
 +	"out-build/bootstrap-amd.js",
 +	'out-build/bootstrap-node.js',
 +	"out-build/paths.js",
-+	'out-build/vs/**/*.{svg,png,html,ttf}',
++	'out-build/vs/**/*.{svg,png,html,ttf,jpg}',
 +	"!out-build/vs/code/browser/workbench/*.html",
 +	'!out-build/vs/code/electron-browser/**',
 +	"out-build/vs/base/common/performance.js",
